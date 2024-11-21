@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "803fce22-1ef3-4294-841a-dc90f5d59ce1")
 	(paper "A4")
+	(title_block
+		(title "ADF4351 Synthesizer")
+		(date "2024-11-20")
+		(rev "1.0")
+		(company "openEPR")
+		(comment 1 "Timothy Keller")
+	)
 	(lib_symbols
 		(symbol "Connector:AVR-UPDI-6"
 			(pin_names
@@ -2445,16 +2452,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 62.23) (xy 115.57 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "436fcc6b-ce8d-4f9f-acad-c39ac545a22b")
-	)
-	(wire
-		(pts
 			(xy 105.41 74.93) (xy 107.95 74.93)
 		)
 		(stroke
@@ -2485,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 64.77) (xy 109.22 64.77)
+			(xy 105.41 64.77) (xy 107.95 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2635,16 +2632,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 64.77) (xy 115.57 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "730f540e-f45e-466b-8bf5-2caa6bd25879")
-	)
-	(wire
-		(pts
 			(xy 128.27 140.97) (xy 128.27 138.43)
 		)
 		(stroke
@@ -2662,16 +2649,6 @@
 			(type default)
 		)
 		(uuid "797a57e1-42a9-4fbf-bed4-7079966d5d4a")
-	)
-	(wire
-		(pts
-			(xy 114.3 59.69) (xy 115.57 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82aa3d3d-8b6c-48f6-bbaa-330bb2015d3e")
 	)
 	(wire
 		(pts
@@ -2785,7 +2762,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 59.69) (xy 109.22 59.69)
+			(xy 105.41 59.69) (xy 107.95 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2885,23 +2862,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 62.23) (xy 109.22 62.23)
+			(xy 105.41 62.23) (xy 107.95 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ce5094c9-cfb9-40cf-a0ad-53803a9c8e55")
-	)
-	(wire
-		(pts
-			(xy 114.3 57.15) (xy 115.57 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1b9b440-e12f-4575-9419-6e8f03515ee5")
 	)
 	(wire
 		(pts
@@ -2935,7 +2902,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 57.15) (xy 109.22 57.15)
+			(xy 105.41 57.15) (xy 107.95 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3113,9 +3080,19 @@
 		)
 		(uuid "fa99001c-fb64-434a-be71-cb9237a59a7f")
 	)
+	(text "SPI Header"
+		(exclude_from_sim no)
+		(at 146.304 20.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d3906be6-44bc-46ad-9a2e-d4e21b10c478")
+	)
 	(global_label "SCLK"
 		(shape input)
-		(at 115.57 62.23 0)
+		(at 107.95 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3125,7 +3102,7 @@
 		)
 		(uuid "06c67c6e-daa3-40dd-aed0-91107c8f047d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.3328 62.23 0)
+			(at 115.7128 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3137,7 +3114,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 115.57 59.69 0)
+		(at 107.95 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3147,7 +3124,7 @@
 		)
 		(uuid "0bbf1d92-afb5-4a14-937e-83dc366ba2ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.1514 59.69 0)
+			(at 115.5314 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3136,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 146.05 26.67 180)
+		(at 146.05 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3169,7 +3146,7 @@
 		)
 		(uuid "0ca6543b-7c1f-4f14-a859-7731151e9fba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.4686 26.67 0)
+			(at 138.4686 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,7 +3158,7 @@
 	)
 	(global_label "~{SYNTH_CS}"
 		(shape input)
-		(at 146.05 29.21 180)
+		(at 146.05 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3191,7 +3168,7 @@
 		)
 		(uuid "128275f7-3485-4369-b5cd-ff57e4383ef4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.691 29.21 0)
+			(at 133.691 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3180,7 @@
 	)
 	(global_label "~{SYNTH_CS}"
 		(shape input)
-		(at 115.57 64.77 0)
+		(at 107.95 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3213,7 +3190,7 @@
 		)
 		(uuid "5231ee74-1fe6-4425-ab06-f535f0b6f025")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.929 64.77 0)
+			(at 120.309 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +3268,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 146.05 24.13 180)
+		(at 146.05 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3301,7 +3278,7 @@
 		)
 		(uuid "73d69a35-06c5-4391-ac76-e607f37e5dcc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.4686 24.13 0)
+			(at 138.4686 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,7 +3290,7 @@
 	)
 	(global_label "SCLK"
 		(shape input)
-		(at 146.05 31.75 180)
+		(at 146.05 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3323,7 +3300,7 @@
 		)
 		(uuid "7894f1d4-3285-45da-97bf-5c9e6bd45c1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.2872 31.75 0)
+			(at 138.2872 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +3466,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 115.57 57.15 0)
+		(at 107.95 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3499,7 +3476,7 @@
 		)
 		(uuid "b01d6149-9c3e-49c2-bf38-02c5748d8757")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.1514 57.15 0)
+			(at 115.5314 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +3562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0263cc4f-0b84-46e7-8152-ee4a8a112d90")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 140.97 64.7699 0)
 			(effects
 				(font
@@ -3639,7 +3616,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3655,7 +3632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fb88d9c-e7f6-4a42-ab6d-f7f33114754e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR01"
 			(at 38.1 88.9 0)
 			(effects
 				(font
@@ -3705,7 +3682,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "#PWR013")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3721,7 +3698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "110620fa-63b1-4f81-8131-98eda5189107")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 153.67 27.9399 0)
 			(effects
 				(font
@@ -3740,7 +3717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical"
 			(at 152.4 29.21 0)
 			(effects
 				(font
@@ -3785,7 +3762,7 @@
 		(instances
 			(project ""
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3801,7 +3778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1752b75b-050b-4d86-bec8-0b5ec59bc743")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 148.59 82.55 0)
 			(effects
 				(font
@@ -3851,7 +3828,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3866,7 +3843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29d87361-1ee7-42d7-af5b-eb251d95bf96")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 123.19 140.97 0)
 			(effects
 				(font
@@ -3916,7 +3893,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3931,7 +3908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c2e9a11-1927-4f54-8441-553e84640e7f")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 80.264 32.004 90)
 			(effects
 				(font
@@ -3983,7 +3960,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3998,7 +3975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41339e28-4476-491d-8f76-9904e3e95a83")
-		(property "Reference" "R8"
+		(property "Reference" "R2"
 			(at 119.634 142.24 0)
 			(effects
 				(font
@@ -4052,7 +4029,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "R8")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4068,7 +4045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f909f40-073c-4820-b59d-9c035e0fa9d6")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR02"
 			(at 46.99 143.51 0)
 			(effects
 				(font
@@ -4118,7 +4095,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "#PWR09")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4133,7 +4110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b208225-177e-419b-9c78-36c901707e82")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR08"
 			(at 105.41 146.05 0)
 			(effects
 				(font
@@ -4183,7 +4160,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "#PWR01")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4199,7 +4176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6076d708-a2b4-4c31-bd7a-5204ca3a03c8")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 87.2841 100.33 0)
 			(effects
 				(font
@@ -4344,7 +4321,7 @@
 		(instances
 			(project ""
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4359,7 +4336,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67ec6442-573a-4606-a16f-d5d6d3283249")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR07"
 			(at 100.33 41.91 0)
 			(effects
 				(font
@@ -4409,7 +4386,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "#PWR016")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4492,7 +4469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a74b786-6790-4e4e-bc87-5deda14e30e0")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 151.13 64.7699 0)
 			(effects
 				(font
@@ -4546,7 +4523,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4561,7 +4538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7139a710-41da-42b6-9589-5ddfc2c7fea6")
-		(property "Reference" "R9"
+		(property "Reference" "R3"
 			(at 129.794 142.24 0)
 			(effects
 				(font
@@ -4615,7 +4592,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "R9")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4630,7 +4607,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8871d387-8ff1-47de-bc9e-2eade5e8a59d")
-		(property "Reference" "C8"
+		(property "Reference" "C5"
 			(at 96.266 23.114 90)
 			(effects
 				(font
@@ -4682,7 +4659,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "C8")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4697,7 +4674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a265103-b0d5-4d14-b089-7ca3efb21023")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR06"
 			(at 85.09 107.95 0)
 			(effects
 				(font
@@ -4747,7 +4724,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "#PWR017")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4762,7 +4739,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ed0e6f0-b986-4e02-aad3-bdd793c5ed31")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR05"
 			(at 83.82 25.4 0)
 			(effects
 				(font
@@ -4812,7 +4789,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "#PWR015")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4828,7 +4805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a57a81a-613b-4be9-ac29-4412619b85b9")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 46.99 72.3835 0)
 			(effects
 				(font
@@ -4882,7 +4859,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4897,7 +4874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dac828b-3214-4a18-8d21-d229afb5a9fd")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR012"
 			(at 144.78 41.91 0)
 			(effects
 				(font
@@ -4947,7 +4924,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "#PWR02")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4962,7 +4939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e2c1e6a-c440-4475-aa40-babeed66de78")
-		(property "Reference" "C10"
+		(property "Reference" "C7"
 			(at 96.774 33.02 90)
 			(effects
 				(font
@@ -5014,7 +4991,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "C10")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5091,6 +5068,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Memory_EEPROM:AT24CS16-STUM")
+		(at 105.41 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fd5320b-da44-422b-8bb1-6a5f52ab755d")
+		(property "Reference" "U6"
+			(at 96.52 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AT24CS16-STUM"
+			(at 96.52 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 105.41 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8859-SEEPROM-AT24CS16-Datasheet.pdf"
+			(at 105.41 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "I2C Serial EEPROM, 16Kb (2048x8) with Unique Serial Number, SOT-23-5"
+			(at 105.41 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "feb8df48-747c-482b-be0f-1f4bdef7926c")
+		)
+		(pin "5"
+			(uuid "35887e33-ef33-4f25-8894-1b78b8c921fd")
+		)
+		(pin "1"
+			(uuid "9b28595a-29c5-4b6c-b935-58717ed3fbf9")
+		)
+		(pin "3"
+			(uuid "04006f24-346a-43e9-8861-c345a050bdcd")
+		)
+		(pin "2"
+			(uuid "d7ec33f3-c1eb-4ed3-a835-70c25937d811")
+		)
+		(instances
+			(project ""
+				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 38.1 67.31 90)
 		(unit 1)
@@ -5100,7 +5156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5451d74-1bfa-4025-a2b8-510df8010b32")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 38.1 60.96 90)
 			(effects
 				(font
@@ -5152,7 +5208,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5167,7 +5223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abe28875-7848-4111-90e7-7bbed658a846")
-		(property "Reference" "C9"
+		(property "Reference" "C3"
 			(at 80.264 27.94 90)
 			(effects
 				(font
@@ -5219,7 +5275,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "C9")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5234,7 +5290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b13edc61-77e2-48e1-b4af-6861e43b91b8")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR04"
 			(at 69.85 41.91 0)
 			(effects
 				(font
@@ -5284,7 +5340,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "#PWR014")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5355,73 +5411,6 @@
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 111.76 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c02d99ba-8fae-4679-b237-42879fefe47b")
-		(property "Reference" "R7"
-			(at 108.204 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27"
-			(at 114.554 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 111.76 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0eb25ba4-d091-4bdc-aaee-9c7170174ab1")
-		)
-		(pin "1"
-			(uuid "e13bcd0d-6df1-468f-b61a-84307a7a44d0")
-		)
-		(instances
-			(project "ADF4351_synthesizer"
-				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5518,7 +5507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c898c7a0-f7e0-4336-bd62-816f6fbeea3e")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 105.41 168.91 0)
 			(effects
 				(font
@@ -5568,74 +5557,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 111.76 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d036e402-d387-407b-8066-4bcc57ed6e21")
-		(property "Reference" "R6"
-			(at 108.204 61.214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27"
-			(at 114.554 61.214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 111.76 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d7acc01d-614c-4ee0-a0ed-02363444be74")
-		)
-		(pin "1"
-			(uuid "4f0875f9-9f88-4da2-866d-d923f0e06f69")
-		)
-		(instances
-			(project "ADF4351_synthesizer"
-				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "R6")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5650,7 +5572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d84fbd39-4378-4aa1-8176-783cbc25964c")
-		(property "Reference" "C7"
+		(property "Reference" "C2"
 			(at 80.264 22.86 90)
 			(effects
 				(font
@@ -5702,7 +5624,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "C7")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5779,140 +5701,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 111.76 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e62b11b9-0dbb-40d6-99b6-bd975e786210")
-		(property "Reference" "R4"
-			(at 108.204 56.134 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27"
-			(at 114.554 56.134 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 111.76 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f0a1e161-6c4a-4a09-a856-2500e0c45d12")
-		)
-		(pin "1"
-			(uuid "e4e332e0-f8af-45dd-a316-27471387b4ab")
-		)
-		(instances
-			(project "ADF4351_synthesizer"
-				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 111.76 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e6db8c24-2bd5-4139-835b-0fa0780897d1")
-		(property "Reference" "R5"
-			(at 108.204 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27"
-			(at 114.554 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 111.76 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f3b35e48-735a-4da2-9039-6f29c8af206c")
-		)
-		(pin "1"
-			(uuid "ee3ab011-c09a-4064-ad47-352c18a8dd70")
-		)
-		(instances
-			(project "ADF4351_synthesizer"
-				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 46.99 165.1 0)
 		(unit 1)
@@ -5921,7 +5709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f65c0de4-15f9-46e8-ab1c-34c994874e0d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR03"
 			(at 46.99 171.45 0)
 			(effects
 				(font
@@ -5971,7 +5759,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "#PWR010")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6038,85 +5826,6 @@
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_EEPROM:AT24CS16-STUM")
-		(at 105.41 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fcaab40b-c2f7-4d4c-846d-b2705fa6919c")
-		(property "Reference" "U3"
-			(at 96.52 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AT24CS16-STUM"
-			(at 96.52 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 105.41 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8859-SEEPROM-AT24CS16-Datasheet.pdf"
-			(at 105.41 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "I2C Serial EEPROM, 16Kb (2048x8) with Unique Serial Number, SOT-23-5"
-			(at 105.41 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f743d430-0e61-45ca-ae6f-8063d7f422f2")
-		)
-		(pin "3"
-			(uuid "28789484-b347-4486-8b16-e885d88d266b")
-		)
-		(pin "1"
-			(uuid "b1d9ab78-ca3f-404c-b546-dc449b5be256")
-		)
-		(pin "5"
-			(uuid "428d2762-7cdc-4f56-92e3-66edd8667a9e")
-		)
-		(pin "4"
-			(uuid "0b7d3b1c-a278-472c-b08b-6b1286dafff0")
-		)
-		(instances
-			(project ""
-				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1"
-					(reference "U3")
 					(unit 1)
 				)
 			)

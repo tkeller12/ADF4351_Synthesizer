@@ -4174,7 +4174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03d5c56d-c98f-42be-9f05-51f64f56de77")
-		(property "Reference" "C22"
+		(property "Reference" "C46"
 			(at 234.95 28.956 90)
 			(effects
 				(font
@@ -4226,7 +4226,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "C22")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -4241,7 +4241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10829d8f-8dbc-4c8e-8a9d-f5eaae81f35e")
-		(property "Reference" "C21"
+		(property "Reference" "C45"
 			(at 220.98 28.956 90)
 			(effects
 				(font
@@ -4293,7 +4293,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "C21")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -4308,7 +4308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1116e25e-46dd-44c9-8caa-c908ce7798ff")
-		(property "Reference" "L2"
+		(property "Reference" "L5"
 			(at 116.84 35.306 90)
 			(effects
 				(font
@@ -4360,7 +4360,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "L2")
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -4375,7 +4375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11cb72ac-300f-42be-a9c4-7624660444d3")
-		(property "Reference" "C19"
+		(property "Reference" "C43"
 			(at 178.054 59.436 0)
 			(effects
 				(font
@@ -4429,7 +4429,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "C19")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -4444,7 +4444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14c16bf6-9ab7-42b1-9212-db962ff93c59")
-		(property "Reference" "R13"
+		(property "Reference" "R16"
 			(at 79.756 44.45 0)
 			(effects
 				(font
@@ -4498,7 +4498,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "R13")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4514,7 +4514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28cfb19a-358e-401e-a3c5-b6cdeddf4d79")
-		(property "Reference" "J3"
+		(property "Reference" "J6"
 			(at 38.1 25.4 0)
 			(effects
 				(font
@@ -4620,7 +4620,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "J3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4635,7 +4635,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fdf78a7-d0cc-4de3-9265-395a099321fd")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR067"
 			(at 229.87 33.02 0)
 			(effects
 				(font
@@ -4685,7 +4685,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR045")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4701,7 +4701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "323aa45d-1424-46c5-8588-6345986ec04d")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR063"
 			(at 207.01 41.91 0)
 			(effects
 				(font
@@ -4751,7 +4751,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR041")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4766,7 +4766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d997bfc-60d9-4073-a44d-977191d17bfb")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR068"
 			(at 240.03 39.37 0)
 			(effects
 				(font
@@ -4816,7 +4816,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR046")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4832,7 +4832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4614edc6-4073-4219-ad5e-db27b3b923c2")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR061"
 			(at 124.46 40.64 0)
 			(effects
 				(font
@@ -4882,7 +4882,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR039")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4897,7 +4897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "530759c3-0c4d-4337-8b93-c58a89c2f53f")
-		(property "Reference" "R12"
+		(property "Reference" "R15"
 			(at 72.644 44.45 0)
 			(effects
 				(font
@@ -4951,7 +4951,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "R12")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4966,7 +4966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5790e142-a5d7-4822-8200-e7e11b6dbc5e")
-		(property "Reference" "R15"
+		(property "Reference" "R18"
 			(at 191.516 55.118 90)
 			(effects
 				(font
@@ -5018,7 +5018,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "R15")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5034,7 +5034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57b4857a-6f29-470c-bf8e-e2809e03f1d4")
-		(property "Reference" "R14"
+		(property "Reference" "R17"
 			(at 125.73 63.4999 0)
 			(effects
 				(font
@@ -5088,7 +5088,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "R14")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5104,7 +5104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5be05d52-001f-4c2b-8b74-54fd4c352a2b")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 100.33 67.3099 0)
 			(effects
 				(font
@@ -5174,7 +5174,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5189,7 +5189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7324b979-b05a-4bed-b329-e0971b8f8e14")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR065"
 			(at 224.79 34.29 0)
 			(effects
 				(font
@@ -5239,7 +5239,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR043")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5254,7 +5254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "740912bd-6d96-4fba-a8ee-fb8063b9ac09")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR060"
 			(at 123.19 81.28 0)
 			(effects
 				(font
@@ -5304,7 +5304,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR038")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -5319,7 +5319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f0bcc1f-ccb0-4e12-ba6d-2aabd3b12105")
-		(property "Reference" "D9"
+		(property "Reference" "D6"
 			(at 124.968 71.12 90)
 			(effects
 				(font
@@ -5374,7 +5374,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "D9")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5389,7 +5389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81a862cb-2772-4441-8e52-80e1d35e48c7")
-		(property "Reference" "C17"
+		(property "Reference" "C41"
 			(at 103.378 43.434 0)
 			(effects
 				(font
@@ -5441,7 +5441,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "C17")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -5456,7 +5456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82b17823-7cbf-40c3-880e-34c38fcba252")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR057"
 			(at 99.06 63.5 0)
 			(effects
 				(font
@@ -5506,7 +5506,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR035")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -5521,7 +5521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85a842cb-4b56-4fac-8f4b-84e40fd1a5eb")
-		(property "Reference" "R16"
+		(property "Reference" "R19"
 			(at 197.104 49.022 90)
 			(effects
 				(font
@@ -5573,7 +5573,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "R16")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5589,7 +5589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b44ff5a-7a47-4951-b277-a8440c7a9191")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR056"
 			(at 97.79 40.64 0)
 			(effects
 				(font
@@ -5639,7 +5639,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR034")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5654,7 +5654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90f4e321-8159-493d-896f-4a021b6d617d")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR055"
 			(at 93.98 81.28 0)
 			(effects
 				(font
@@ -5704,7 +5704,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR033")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5719,7 +5719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98afbe24-b510-49a5-a0c6-7c8a37b939a0")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR058"
 			(at 116.84 58.42 0)
 			(effects
 				(font
@@ -5769,7 +5769,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR036")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -5784,7 +5784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ababd011-b06f-4dc4-a491-8587443d91e8")
-		(property "Reference" "D8"
+		(property "Reference" "D5"
 			(at 104.14 35.56 0)
 			(effects
 				(font
@@ -5854,7 +5854,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "D8")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5869,7 +5869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b02f20d9-cd20-483f-b522-92ac33f393a6")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR064"
 			(at 215.9 39.37 0)
 			(effects
 				(font
@@ -5919,7 +5919,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR042")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5935,7 +5935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b38cbe0b-722d-4c81-9050-7b1c58dd6a1f")
-		(property "Reference" "C18"
+		(property "Reference" "C42"
 			(at 127 42.7481 0)
 			(effects
 				(font
@@ -5989,7 +5989,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "C18")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -6005,7 +6005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf0d0af4-3e0b-4b37-a0d1-bb05abd0bc89")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR053"
 			(at 55.88 34.29 0)
 			(effects
 				(font
@@ -6055,7 +6055,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR031")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6071,7 +6071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c98e75b8-7316-41ca-a22d-713e2fb8a616")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR054"
 			(at 74.93 57.15 0)
 			(effects
 				(font
@@ -6121,7 +6121,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR032")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6137,7 +6137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb11404b-00ca-4d8c-a564-cf163bd7315c")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR059"
 			(at 123.19 64.77 0)
 			(effects
 				(font
@@ -6187,7 +6187,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR037")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6202,7 +6202,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d62a7f20-de61-464c-a19a-933e0f4f07fa")
-		(property "Reference" "C20"
+		(property "Reference" "C44"
 			(at 188.976 59.182 0)
 			(effects
 				(font
@@ -6256,7 +6256,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "C20")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -6271,7 +6271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9af0919-9ef2-430b-a4fd-2ffeb6c2df33")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR062"
 			(at 185.42 72.39 0)
 			(effects
 				(font
@@ -6321,7 +6321,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR040")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -6336,7 +6336,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9be64d5-572b-44ad-b388-b8d05508b676")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 246.634 35.56 0)
 			(effects
 				(font
@@ -6447,7 +6447,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "U1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -6462,7 +6462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da3923fc-9939-46b5-96e2-b23e2cf21971")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR066"
 			(at 227.33 90.17 0)
 			(effects
 				(font
@@ -6512,7 +6512,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR044")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -6528,7 +6528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed2e9cf0-0d27-4196-a0eb-f9780b4153da")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR052"
 			(at 38.1 80.01 0)
 			(effects
 				(font
@@ -6578,7 +6578,7 @@
 		(instances
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/c5e67e60-2645-48b7-8618-8c77ce6adc17"
-					(reference "#PWR030")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
