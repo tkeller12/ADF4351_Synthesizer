@@ -5,173 +5,6 @@
 	(uuid "c51edafd-7ae1-4222-883c-6b058ad627d5")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Conn_Coaxial_1"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_1_0_1"
-				(arc
-					(start -1.778 -0.508)
-					(mid 0.2311 -1.8066)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.2099 1.8101)
-					(end -1.778 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016) hide)
@@ -2070,6 +1903,12 @@
 		(uuid "20fd3371-6bf8-4177-a62a-b0baa00fc2a1")
 	)
 	(junction
+		(at 27.94 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "307ef957-10d3-4cc2-9951-28de9c215fe6")
+	)
+	(junction
 		(at 156.21 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2160,6 +1999,12 @@
 		(uuid "94e9d5e4-c610-4c8c-a846-79b292427cde")
 	)
 	(junction
+		(at 41.91 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "961d345d-8f0f-42b5-8119-009618498982")
+	)
+	(junction
 		(at 100.33 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2184,6 +2029,12 @@
 		(uuid "a80ea101-68e1-48be-bde4-f62d8be57355")
 	)
 	(junction
+		(at 176.53 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9fda172-7397-4ca2-87a1-5e93271f3469")
+	)
+	(junction
 		(at 176.53 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2200,12 +2051,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b78b5fda-13c7-4bea-8ae0-68dcd491a9c9")
-	)
-	(junction
-		(at 175.26 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be245041-6979-4238-a240-4d8ef730bd6e")
 	)
 	(junction
 		(at 123.19 40.64)
@@ -2232,16 +2077,16 @@
 		(uuid "d02cf69c-4e1b-4413-90ee-147b33d0e3cb")
 	)
 	(junction
-		(at 63.5 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d19cb870-8c09-4259-9b56-0135e2483cf8")
-	)
-	(junction
 		(at 215.9 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1f69cd1-d4bc-4d77-8363-2654ee94ce4a")
+	)
+	(junction
+		(at 73.66 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d408eeeb-6fb5-486f-bc53-c34256af40a8")
 	)
 	(junction
 		(at 143.51 52.07)
@@ -2296,12 +2141,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa4dddef-46c6-4334-bb60-68142826269c")
-	)
-	(junction
-		(at 41.91 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc83eaa8-7c90-44c2-8635-8ade77baf0dd")
 	)
 	(wire
 		(pts
@@ -2425,7 +2264,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 68.58) (xy 175.26 86.36)
+			(xy 172.72 68.58) (xy 172.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2455,16 +2294,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 40.64) (xy 63.5 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17732d1f-9e13-4bed-a11f-fb89bfccf6a6")
-	)
-	(wire
-		(pts
 			(xy 143.51 52.07) (xy 143.51 57.15)
 		)
 		(stroke
@@ -2475,13 +2304,33 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 69.85) (xy 182.88 68.58)
+			(xy 180.34 69.85) (xy 180.34 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "17cb7091-34b3-4eec-9359-e278f965fa61")
+	)
+	(wire
+		(pts
+			(xy 73.66 39.37) (xy 73.66 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18689825-957c-412b-9318-b7ff24f5ca85")
+	)
+	(wire
+		(pts
+			(xy 172.72 86.36) (xy 161.29 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1944682e-f26f-4859-b4c2-14523a62b89f")
 	)
 	(wire
 		(pts
@@ -2545,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 137.16) (xy 176.53 137.16)
+			(xy 171.45 137.16) (xy 176.53 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2725,16 +2574,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 54.61) (xy 72.39 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "368294c5-6733-43b6-b6cd-de1027f7bcc3")
-	)
-	(wire
-		(pts
 			(xy 158.75 52.07) (xy 153.67 52.07)
 		)
 		(stroke
@@ -2755,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 40.64) (xy 34.29 40.64)
+			(xy 24.13 40.64) (xy 27.94 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2915,7 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 66.04) (xy 175.26 68.58)
+			(xy 176.53 66.04) (xy 176.53 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2935,7 +2774,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 31.75) (xy 34.29 31.75)
+			(xy 33.02 30.48) (xy 34.29 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3025,16 +2864,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 48.26) (xy 63.5 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5991a001-e83b-4ab7-bc5c-baaf9dad5637")
-	)
-	(wire
-		(pts
 			(xy 158.75 57.15) (xy 158.75 54.61)
 		)
 		(stroke
@@ -3062,6 +2891,16 @@
 			(type default)
 		)
 		(uuid "5dd5b079-cf7a-416e-bc9e-bd54f0ad7384")
+	)
+	(wire
+		(pts
+			(xy 172.72 68.58) (xy 176.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd61699-135e-4f65-90ed-b8cbd1c6ece8")
 	)
 	(wire
 		(pts
@@ -3175,6 +3014,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 40.64) (xy 34.29 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab0a731-e455-434e-9175-fa4ca8cb4f9a")
+	)
+	(wire
+		(pts
 			(xy 53.34 40.64) (xy 55.88 40.64)
 		)
 		(stroke
@@ -3182,16 +3031,6 @@
 			(type default)
 		)
 		(uuid "6c5e9169-6427-42b3-9938-ae769c4dd54c")
-	)
-	(wire
-		(pts
-			(xy 41.91 31.75) (xy 41.91 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d17da0e-47f1-4b56-8d06-5bf5e3dfdb0c")
 	)
 	(wire
 		(pts
@@ -3235,6 +3074,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 30.48) (xy 41.91 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71205d43-70af-41bc-af2a-56e543a0bb46")
+	)
+	(wire
+		(pts
 			(xy 170.18 119.38) (xy 170.18 121.92)
 		)
 		(stroke
@@ -3262,6 +3111,36 @@
 			(type default)
 		)
 		(uuid "73e65be9-db8e-441a-93b7-17276a58b25c")
+	)
+	(wire
+		(pts
+			(xy 27.94 31.75) (xy 27.94 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7437b2ec-091c-4695-94d3-e6b0cf1ba8f0")
+	)
+	(wire
+		(pts
+			(xy 63.5 40.64) (xy 66.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744c41d5-64eb-4b08-bb5c-e41b36a3d250")
+	)
+	(wire
+		(pts
+			(xy 63.5 38.1) (xy 63.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b8a23f-0e06-4223-9834-72ba8ebb2219")
 	)
 	(wire
 		(pts
@@ -3455,7 +3334,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 36.83) (xy 53.34 40.64)
+			(xy 53.34 38.1) (xy 53.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3492,6 +3371,16 @@
 			(type default)
 		)
 		(uuid "8e4eb9b6-d3db-418c-91d7-d0b9dba3301b")
+	)
+	(wire
+		(pts
+			(xy 176.53 68.58) (xy 180.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f228b5c-17dc-4e6a-95a6-88e40f954293")
 	)
 	(wire
 		(pts
@@ -3542,16 +3431,6 @@
 			(type default)
 		)
 		(uuid "974645d2-f32c-4d45-a3ef-4a4787439c3a")
-	)
-	(wire
-		(pts
-			(xy 182.88 68.58) (xy 175.26 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97ca61d0-c73d-4c69-8e7f-d5d640955fc1")
 	)
 	(wire
 		(pts
@@ -3695,7 +3574,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 74.93) (xy 182.88 76.2)
+			(xy 180.34 74.93) (xy 180.34 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3745,6 +3624,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 38.1) (xy 27.94 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ed1d5f-9b7a-41d4-91ac-144fd30709e1")
+	)
+	(wire
+		(pts
 			(xy 77.47 121.92) (xy 77.47 119.38)
 		)
 		(stroke
@@ -3755,7 +3644,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 31.75) (xy 41.91 31.75)
+			(xy 39.37 30.48) (xy 41.91 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3925,7 +3814,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 124.46) (xy 161.29 137.16)
+			(xy 163.83 124.46) (xy 163.83 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3955,16 +3844,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 49.53) (xy 63.5 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca1ba93f-b1ca-4e93-af62-c72314a97d01")
-	)
-	(wire
-		(pts
 			(xy 118.11 88.9) (xy 118.11 86.36)
 		)
 		(stroke
@@ -3972,16 +3851,6 @@
 			(type default)
 		)
 		(uuid "ca27bc31-0b4c-4428-8a61-d4296e4bbedc")
-	)
-	(wire
-		(pts
-			(xy 63.5 40.64) (xy 66.04 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca87e238-cb6c-44a3-ade1-962bc2aa6ec2")
 	)
 	(wire
 		(pts
@@ -4045,7 +3914,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 33.02) (xy 33.02 31.75)
+			(xy 33.02 31.75) (xy 33.02 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4055,7 +3924,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 30.48) (xy 41.91 31.75)
+			(xy 41.91 27.94) (xy 41.91 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4082,16 +3951,6 @@
 			(type default)
 		)
 		(uuid "d9a6dc48-503a-481e-830f-d96b156076c2")
-	)
-	(wire
-		(pts
-			(xy 175.26 86.36) (xy 161.29 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9cbafa1-9676-4767-a142-64a300249ba3")
 	)
 	(wire
 		(pts
@@ -4155,17 +4014,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 49.53) (xy 67.31 49.53)
+			(xy 71.12 40.64) (xy 73.66 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e34ee1bb-9b72-417a-a4b0-35963ffce861")
+		(uuid "e2abfd35-b695-42a1-a97a-703ae3ed1d8e")
 	)
 	(wire
 		(pts
-			(xy 161.29 137.16) (xy 162.56 137.16)
+			(xy 163.83 137.16) (xy 166.37 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4245,6 +4104,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 124.46) (xy 161.29 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e960a6d1-81b2-4f80-ab10-4bde62af4ac6")
+	)
+	(wire
+		(pts
 			(xy 247.65 83.82) (xy 247.65 86.36)
 		)
 		(stroke
@@ -4282,6 +4151,16 @@
 			(type default)
 		)
 		(uuid "f0cfb5ad-5b3f-49f5-9821-02d7f714d5b0")
+	)
+	(wire
+		(pts
+			(xy 73.66 40.64) (xy 76.2 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c4990b-293a-4421-9087-c7f53f00cea0")
 	)
 	(wire
 		(pts
@@ -4355,7 +4234,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 81.28) (xy 182.88 82.55)
+			(xy 180.34 81.28) (xy 180.34 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4427,7 +4306,7 @@
 	)
 	(text "Lock Detect"
 		(exclude_from_sim no)
-		(at 182.118 67.056 0)
+		(at 183.134 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4437,7 +4316,7 @@
 	)
 	(global_label "XO_EN"
 		(shape input)
-		(at 31.75 40.64 180)
+		(at 24.13 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4447,7 +4326,7 @@
 		)
 		(uuid "0f40b7a4-5868-4486-ade2-ab7bc34ef3cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.7777 40.64 0)
+			(at 15.1577 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +4360,7 @@
 	)
 	(global_label "LD"
 		(shape input)
-		(at 175.26 66.04 90)
+		(at 176.53 66.04 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4491,7 +4370,7 @@
 		)
 		(uuid "2ba00150-11ec-4642-a311-5e9c5a37b100")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 60.7567 90)
+			(at 176.53 60.7567 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +4426,7 @@
 	)
 	(global_label "REF_IN"
 		(shape input)
-		(at 66.04 40.64 0)
+		(at 63.5 38.1 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4557,7 +4436,7 @@
 		)
 		(uuid "3d211eaf-c53e-44a5-9301-64690ab349d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.4357 40.64 0)
+			(at 63.5 28.7043 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,29 +4470,29 @@
 	)
 	(global_label "EXT_REF"
 		(shape input)
-		(at 63.5 50.8 270)
+		(at 73.66 39.37 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "841a24ed-ba51-4ab0-8b95-decac2b37ebe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 61.5865 90)
+			(at 73.66 28.5835 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "XO_REF"
 		(shape input)
-		(at 53.34 36.83 90)
+		(at 53.34 38.1 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4623,7 +4502,7 @@
 		)
 		(uuid "863345ee-6634-4e38-b02f-b20eb5b88413")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 26.8296 90)
+			(at 53.34 28.0996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,7 +4649,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 33.02 0)
+		(at 33.02 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4778,7 +4657,7 @@
 		(dnp no)
 		(uuid "0b31b300-6890-4cd2-9d62-351109b496c4")
 		(property "Reference" "#PWR057"
-			(at 33.02 39.37 0)
+			(at 33.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,7 +4666,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.972 35.052 0)
+			(at 33.02 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,7 +4674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 33.02 0)
+			(at 33.02 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +4683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 33.02 0)
+			(at 33.02 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +4692,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 33.02 0)
+			(at 33.02 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +4856,7 @@
 		(dnp no)
 		(uuid "13ea873b-e9d4-4b06-9a0a-411138d4b71e")
 		(property "Reference" "R20"
-			(at 56.134 38.1 90)
+			(at 56.896 38.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +4864,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 60.198 39.116 90)
+			(at 59.944 38.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +4915,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 41.91 30.48 0)
+		(at 41.91 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5044,7 +4923,7 @@
 		(dnp no)
 		(uuid "16d7d333-9e43-4327-a4a5-4c11f683eab8")
 		(property "Reference" "#PWR058"
-			(at 41.91 34.29 0)
+			(at 41.91 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +4932,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 41.91 26.162 0)
+			(at 41.91 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,7 +4940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 30.48 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,7 +4949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 30.48 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +4958,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 41.91 30.48 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +4980,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 36.83 31.75 270)
+		(at 36.83 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5109,7 +4988,7 @@
 		(dnp no)
 		(uuid "1f4df6a2-4f1c-4e8b-92e4-ea36d9e1e468")
 		(property "Reference" "C46"
-			(at 36.83 27.432 90)
+			(at 36.83 26.162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +4996,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 36.83 29.21 90)
+			(at 36.83 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,7 +5004,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 36.83 31.75 0)
+			(at 36.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,7 +5013,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 31.75 0)
+			(at 36.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,7 +5022,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 36.83 31.75 0)
+			(at 36.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,77 +5211,6 @@
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/ce4b53da-d503-4cc2-a654-5c91d3b42aec"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Conn_Coaxial_1")
-		(lib_id "Connector:Conn_Coaxial")
-		(at 255.27 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "246b633f-2201-4e94-90bb-0d1d0051168b")
-		(property "Reference" "J6"
-			(at 259.08 108.2431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 259.08 110.7831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 255.27 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79399d92-2015-4f0e-909c-025846980a74")
-		)
-		(pin "2"
-			(uuid "d2852379-c74b-4e38-8d0c-8b337be24784")
-		)
-		(instances
-			(project ""
-				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/ce4b53da-d503-4cc2-a654-5c91d3b42aec"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6945,8 +6753,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3VA")
+		(at 27.94 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "679a0e39-6c1e-4310-9677-383fef1a1a37")
+		(property "Reference" "#PWR07"
+			(at 27.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 27.94 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2c3ee2f-377d-4b01-abcc-c3da9d6f59a5")
+		)
+		(instances
+			(project "ADF4351_synthesizer"
+				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/ce4b53da-d503-4cc2-a654-5c91d3b42aec"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 72.39 49.53 0)
+		(at 81.28 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6955,7 +6828,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a07b5d8-2872-469b-ad56-ae36e2778efd")
 		(property "Reference" "J5"
-			(at 76.2 48.5531 0)
+			(at 85.09 39.6631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,7 +6837,7 @@
 			)
 		)
 		(property "Value" "SMA-J-P-H-ST-EM1"
-			(at 76.2 51.0931 0)
+			(at 85.09 42.2031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6973,7 +6846,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
-			(at 72.39 49.53 0)
+			(at 81.28 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6982,7 +6855,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
-			(at 72.39 49.53 0)
+			(at 81.28 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6991,7 +6864,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 72.39 49.53 0)
+			(at 81.28 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7000,7 +6873,7 @@
 			)
 		)
 		(property "Digikey" "SAM8857-ND"
-			(at 72.39 49.53 0)
+			(at 81.28 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7228,7 +7101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 55.88 0)
+		(at 81.28 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7236,7 +7109,7 @@
 		(dnp no)
 		(uuid "7e75b44e-23db-4c83-81ef-be32aa3e2101")
 		(property "Reference" "#PWR060"
-			(at 72.39 62.23 0)
+			(at 81.28 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,7 +7118,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 59.944 0)
+			(at 81.28 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7253,7 +7126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 55.88 0)
+			(at 81.28 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,7 +7135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 55.88 0)
+			(at 81.28 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +7144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 55.88 0)
+			(at 81.28 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7293,7 +7166,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 165.1 137.16 270)
+		(at 168.91 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7301,7 +7174,7 @@
 		(dnp yes)
 		(uuid "7ea2b2cf-8ea6-44f7-b4a2-85ebc7e042f3")
 		(property "Reference" "R25"
-			(at 162.814 139.446 90)
+			(at 166.624 139.446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7309,7 +7182,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 167.64 139.446 90)
+			(at 171.45 139.446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7190,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 165.1 137.16 0)
+			(at 168.91 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +7199,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 137.16 0)
+			(at 168.91 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +7208,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 165.1 137.16 0)
+			(at 168.91 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7424,8 +7297,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 255.27 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82e34bf7-2e78-4d39-aed4-8fff4d5c602e")
+		(property "Reference" "J2"
+			(at 259.08 85.3831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA-J-P-H-ST-EM1"
+			(at 259.08 87.9231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+			(at 255.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
+			(at 255.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 255.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM8857-ND"
+			(at 255.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3988410-3a63-493b-b301-826edb1001c1")
+		)
+		(pin "2"
+			(uuid "d2834aee-59a3-418b-b492-2f47cb9528e4")
+		)
+		(instances
+			(project "ADF4351_synthesizer"
+				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/ce4b53da-d503-4cc2-a654-5c91d3b42aec"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 63.5 45.72 180)
+		(at 68.58 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7433,7 +7385,7 @@
 		(dnp no)
 		(uuid "850fd91c-e80b-4399-8cab-d0688bcf8c3f")
 		(property "Reference" "R21"
-			(at 66.04 44.45 0)
+			(at 67.056 38.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7441,7 +7393,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 65.278 48.006 0)
+			(at 70.104 38.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,7 +7401,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 63.5 45.72 0)
+			(at 68.58 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7458,7 +7410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 45.72 0)
+			(at 68.58 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7467,7 +7419,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 63.5 45.72 0)
+			(at 68.58 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8244,6 +8196,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 255.27 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b200e709-c2c7-45da-8638-75828784bb29")
+		(property "Reference" "J6"
+			(at 259.08 108.2431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA-J-P-H-ST-EM1"
+			(at 259.08 110.7831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+			(at 255.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
+			(at 255.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 255.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM8857-ND"
+			(at 255.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "485fd8d7-8621-49e5-a361-8b198c7acad1")
+		)
+		(pin "2"
+			(uuid "877c64b2-ad5f-4d27-a979-47bb48e742b2")
+		)
+		(instances
+			(project "ADF4351_synthesizer"
+				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/ce4b53da-d503-4cc2-a654-5c91d3b42aec"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 130.81 0)
 		(unit 1)
@@ -8376,77 +8407,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Conn_Coaxial_1")
-		(lib_id "Connector:Conn_Coaxial")
-		(at 255.27 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2c88094-c7a9-44ea-9299-3d0dcd31f83c")
-		(property "Reference" "J7"
-			(at 259.08 85.3831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 259.08 87.9231 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 255.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18c5e504-2d57-417e-932d-e2f4adebe05c")
-		)
-		(pin "2"
-			(uuid "37bdb669-bd4a-4f73-8e59-2a25b49716e2")
-		)
-		(instances
-			(project "ADF4351_synthesizer"
-				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/ce4b53da-d503-4cc2-a654-5c91d3b42aec"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 186.69 124.46 180)
 		(unit 1)
@@ -8534,7 +8494,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 120.65 104.902 90)
+			(at 121.158 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8856,7 +8816,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 182.88 72.39 0)
+		(at 180.34 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8865,7 +8825,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1876995-26fc-40a4-a5fc-0dee75363305")
 		(property "Reference" "R29"
-			(at 185.42 71.1199 0)
+			(at 182.88 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8874,7 +8834,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 185.42 73.6599 0)
+			(at 182.88 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8883,7 +8843,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 182.88 72.39 0)
+			(at 180.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8892,7 +8852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 72.39 0)
+			(at 180.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8901,7 +8861,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 182.88 72.39 0)
+			(at 180.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8926,7 +8886,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 82.55 0)
+		(at 180.34 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8934,7 +8894,7 @@
 		(dnp no)
 		(uuid "d3c64f36-48c6-4fcb-a90b-2d76f64c040e")
 		(property "Reference" "#PWR080"
-			(at 182.88 88.9 0)
+			(at 180.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8943,7 +8903,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 86.106 0)
+			(at 180.34 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8951,7 +8911,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 82.55 0)
+			(at 180.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,7 +8920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 82.55 0)
+			(at 180.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8969,7 +8929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 82.55 0)
+			(at 180.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9057,6 +9017,75 @@
 			(project "ADF4351_synthesizer"
 				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/ce4b53da-d503-4cc2-a654-5c91d3b42aec"
 					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 27.94 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd5e658f-00e2-4e6a-91d6-45083e294361")
+		(property "Reference" "R10"
+			(at 22.606 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 22.352 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 27.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 27.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "784d8ab2-0146-4cf0-ad86-84e36b0dc69f")
+		)
+		(pin "2"
+			(uuid "d3fe5ef3-532b-47ee-96eb-bcde3fcf80c0")
+		)
+		(instances
+			(project "ADF4351_synthesizer"
+				(path "/803fce22-1ef3-4294-841a-dc90f5d59ce1/ce4b53da-d503-4cc2-a654-5c91d3b42aec"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9724,7 +9753,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 182.88 78.74 90)
+		(at 180.34 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9732,7 +9761,7 @@
 		(dnp no)
 		(uuid "fe1b8fea-6ba3-4bc2-bc76-b64619e3d175")
 		(property "Reference" "D7"
-			(at 184.658 78.74 90)
+			(at 182.118 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9741,7 +9770,7 @@
 			)
 		)
 		(property "Value" "150080VS75000"
-			(at 175.514 81.788 90)
+			(at 172.974 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9751,7 +9780,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 182.88 78.74 90)
+			(at 180.34 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9760,7 +9789,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080VS75000.pdf"
-			(at 182.88 78.74 90)
+			(at 180.34 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9769,7 +9798,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 182.88 78.74 0)
+			(at 180.34 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
